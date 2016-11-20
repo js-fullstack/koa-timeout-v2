@@ -4,6 +4,15 @@ Middleware of Koa v2, 408 "request time-out" will be return if request execute t
 ## Install
 npm install koa-timeout-v2
 
+## API
+
+```
+timeout(delay, options)
+```
+##### delay: time out (ms)
+##### option: {status, message, callback}
+
+
 ## Sample
 
 #### Simple
