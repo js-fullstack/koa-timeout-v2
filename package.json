@@ -1,0 +1,27 @@
+{
+  "name": "koa-timeout-v2",
+  "version": "1.0.0",
+  "description": "Middleware of Koa v2, 408 \"request time-out\" will be return if request execute timeout, ctx.state.timeout will be set to ture at same time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-fullstack/koa-timeout-v2.git"
+  },
+  "keywords": [
+    "timeout",
+    "koa",
+    "v2"
+  ],
+  "author": "shenyu1997@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/js-fullstack/koa-timeout-v2/issues"
+  },
+  "homepage": "https://github.com/js-fullstack/koa-timeout-v2#readme",
+  "dependencies": {
+    "http-errors": "^1.5.1"
+  }
+}
